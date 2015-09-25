@@ -1,1 +1,3 @@
-this file is for conflict resolution.
+git is good at conflict resolution.
+
+please keep your line here:
