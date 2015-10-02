@@ -1,0 +1,29 @@
+" If you change this file to be called ~/.vimrc
+" Or if you symlink this file as .vimrc to your home dir
+" Your vim will act a lot nicer, look a lot nicer, and
+" Be a little better in general
+
+syntax on
+colorscheme koehler
+set background=dark
+set number
+set cursorline
+set showmatch
+set autoindent
+set smartindent
+set smarttab
+set backspace=2
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set wildmenu
+"set hlsearch
+let mapleader=","
+nnoremap <silent> <leader>n :set invnumber<CR>
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+map j gj
+map k gk
+if has('mouse')
+  set mouse=a
+endif
